@@ -11,7 +11,7 @@ easy_install pip
 pip install --upgrade pip setuptools
 pip install cryptography paramiko jinja2 httplib2 six pyyaml a2x ansible
 #Copy over and set permissions for ansible.cfg, since ansible.cfg isn't installed with the python install.
-mkdir /etc/ansible/
+mkdir -p /etc/ansible/
 chmod 755 /etc/ansible/
 chown root:root /etc/ansible/
 cp ./files/ansible.cfg /etc/ansible/ansible.cfg
