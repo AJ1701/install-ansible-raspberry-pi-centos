@@ -6,6 +6,7 @@ Prepare to sit tight while installing it, as it may take a while to install.
 Notes
 -------
 * Please do not forget to 'chmod +x installAnsibleRaspberryPiCentOS.sh'!
+* The script MUST be ran with root privileges!
 * The install might take a while depending on your hardware!
 
 License
