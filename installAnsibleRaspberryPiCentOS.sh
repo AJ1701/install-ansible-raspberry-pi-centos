@@ -14,12 +14,12 @@ pip install cryptography paramiko jinja2 httplib2 six pyyaml a2x ansible
 mkdir /etc/ansible/
 chmod 755 /etc/ansible/
 chown root:root /etc/ansible/
-cp ./ansible.cfg /etc/ansible/ansible.cfg
+cp ./files/ansible.cfg /etc/ansible/ansible.cfg
 chown root:root /etc/ansible/ansible.cfg
 chmod 644 /etc/ansible/ansible.cfg
 #Create and set permissions for ansible.cfg, since ansible.sh. This is to set the environment variable for ANSIBLE_CONFIG
 #so we have it set for all users and don't have to define it on login everytime.
-echo 'export ANSIBLE_CONFIG=/etc/ansible/ansible.cfg' > /etc/profile.d/ansible.sh
+cp ./files/ansible.sh /etc/profile.d/ansible.sh
 chown root:root /etc/profile.d/ansible.sh
 chmod 644 /etc/profile.d/ansible.sh
 echo 'Done!'
