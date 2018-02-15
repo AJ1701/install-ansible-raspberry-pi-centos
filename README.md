@@ -3,6 +3,10 @@ A simple script to setup Ansible on a Raspberry Pi running CentOS 7.
 
 Prepare to sit tight while installing it, as it may take a while to install.
 
+Notes
+-------
+Please do not forget to 'chmod +x installAnsibleRaspberryPiCentOS.sh'!
+
 License
 -------
 MIT
