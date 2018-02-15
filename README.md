@@ -1,5 +1,5 @@
 # install-ansible-raspberry-pi-centos
-A simple script to setup Ansible on a Raspberry Pi running CentOS 7.
+A simple script to setup Ansible on a Raspberry Pi running CentOS 7, as there is so enterprise linux RPM build at the time of this writing.
 
 Prepare to sit tight while installing it, as it may take a while to install.
 
